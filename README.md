@@ -16,3 +16,10 @@ db.ts
 ```
 2. Tailwind belum di build ke `public/css/style.css`.
 3. File `.env` (secret) & `database.sqlite` (development cache) ter-ekspos di repo. 
+
+buat file .gitignore di root folder dan masukkan:
+
+Plaintext
+.env
+*.sqlite
+node_modules/

@@ -1,5 +1,8 @@
 # dependencies (bun install)
 node_modules
+.env
+*.sqlite
+node_modules/
 
 # output
 out
